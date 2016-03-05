@@ -1,0 +1,14 @@
+**.settings/
+**target/
+**targetInstall/
+**RemoteSystemsTempFiles/
+**.project
+**.classpath
+**.externalToolBuilders/
+**.idea/
+**.metadata/
+**.iml
+**.DS_Store
+**.merge_file_*
+**.tern-project
+**.log
