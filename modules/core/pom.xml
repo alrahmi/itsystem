@@ -19,6 +19,12 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>xalan</groupId>
+			<artifactId>xalan</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.jboss.spec</groupId>
 			<artifactId>jboss-javaee-6.0</artifactId>
 			<version>3.0.2.Final</version>
@@ -31,7 +37,7 @@
 		<dependency>
 			<groupId>org.jboss.spec.javax.ejb</groupId>
 			<artifactId>jboss-ejb-api_3.1_spec</artifactId>
-			<scope>provided</scope>
+			<version>1.0.2.Final</version>
 		</dependency>
 
 		<!-- Import the CDI API, we use provided scope as the API is included in 
@@ -39,8 +45,9 @@
 		<dependency>
 			<groupId>javax.enterprise</groupId>
 			<artifactId>cdi-api</artifactId>
-			<scope>provided</scope>
+			<version>2.0-EDR1</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -51,7 +58,7 @@
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
 			<artifactId>hibernate-jpa-2.0-api</artifactId>
-			<scope>provided</scope>
+			<version>1.0.1.Final</version>
 		</dependency>
 
 		<dependency>
@@ -87,6 +94,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
+			<version>5.1.0.Final</version>
 			<exclusions>
 				<exclusion>
 					<groupId>antlr</groupId>
@@ -101,12 +109,6 @@
 			<version>1.8</version>
 		</dependency>
 
-		<dependency>
-			<groupId>CoDec</groupId>
-			<artifactId>CoDec</artifactId>
-			<version>b21-jdk13-hotfix1</version>
-		</dependency>
-		
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
@@ -123,7 +125,7 @@
 			<artifactId>json</artifactId>
 			<version>20131018</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-client</artifactId>
@@ -134,6 +136,12 @@
 			<groupId>org.jdom</groupId>
 			<artifactId>jdom2</artifactId>
 			<version>2.0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-resources-plugin</artifactId>
+			<version>2.7</version>
 		</dependency>
 
 	</dependencies>
